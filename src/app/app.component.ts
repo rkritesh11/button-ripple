@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'button-ripple';
+
+  public onOptionClick(index: number) {
+    console.log('option clicked', index);
+  }
 }

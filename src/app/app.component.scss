@@ -1,0 +1,163 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// .btn {
+//   display: inline-block;
+//   border-radius: 50%;
+//   -webkit-border-radius: 50%;
+//   -moz-border-radius: 50%;
+//   -ms-border-radius: 50%;
+//   -o-border-radius: 50%;
+//   background-color: #33adff;
+//   box-shadow: none;
+//   border: none;
+//   width: 35px;
+//   height: 35px;
+//   transition: height .25s ease, width .25s ease;
+//   -webkit-transition: height .25s ease, width .25s ease;
+//   -moz-transition: height .25s ease, width .25s ease;
+//   -ms-transition: height .25s ease, width .25s ease;
+//   -o-transition: height .25s ease, width .25s ease;
+//   transform: translate(-50%, -50%);
+//   -webkit-transform: translate(-50%, -50%);
+//   -moz-transform: translate(-50%, -50%);
+//   -ms-transform: translate(-50%, -50%);
+//   -o-transform: translate(-50%, -50%);
+//   cursor: pointer;
+// }
+
+// .icon {
+//   fill: #fff;
+// }
+
+// .btn::before,
+// .inner::before {
+//   content: '';
+//   display: block;
+//   position: absolute;
+//   top: 0;
+//   right: 0;
+//   bottom: 0;
+//   left: 0;
+//   border-radius: 50%;
+//   border: 3px solid #33adff;
+// }
+
+// .btn::after,
+// .inner::after {
+//   content: '';
+//   display: block;
+//   position: absolute;
+//   top: -2px;
+//   right: -2px;
+//   bottom: -2px;
+//   left: -2px;
+//   border-radius: 50%;
+//   border: 3px solid #33adff;
+// }
+
+// .btn::after,
+// .inner::after {
+//   animation: ripple 2s linear 1s infinite;
+//   -webkit-animation: ripple 2s linear 1s infinite;
+//   opacity: 0.5;
+// }
+
+// .btn::before,
+// .inner::before {
+//   animation: ripple 2s linear 1s infinite;
+//   -webkit-animation: ripple 2s linear 1s infinite;
+//   opacity: 0.5;
+// }
+
+// .btn:hover:before,
+// .btn:hover:after,
+// .inner:hover:before,
+// .inner:hover:after {
+//   -webkit-animation: none;
+//   animation: none;
+//   top: 0px;
+//   right: 0px;
+//   bottom: 0px;
+//   left: 0px;
+
+// }
+
+
+
+
+// @keyframes ripple {
+//   0% {
+//     transform: scale(1);
+//     -webkit-transform: scale(1);
+//     -moz-transform: scale(1);
+//     -ms-transform: scale(1);
+//     -o-transform: scale(1);
+//   }
+
+//   75% {
+//     transform: scale(1.1);
+//     -webkit-transform: scale(1.1);
+//     -moz-transform: scale(1.1);
+//     -ms-transform: scale(1.1);
+//     -o-transform: scale(1.1);
+//   }
+
+//   100% {
+//     transform: scale(1.2);
+//     -webkit-transform: scale(1.2);
+//     -moz-transform: scale(1.2);
+//     -ms-transform: scale(1.2);
+//     -o-transform: scale(1.2);
+//   }
+// }
+
+
+
+/*
+* This is for button dropdown
+*/
+
+.btn {
+  display: inline-block;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  -webkit-border-radius: 0.25rem;
+  -moz-border-radius: 0.25rem;
+  -ms-border-radius: 0.25rem;
+  -o-border-radius: 0.25rem;
+  text-align: center;
+  border: 1px solid transparent;
+  vertical-align: middle;
+  font-weight: 400;
+  padding: .375rem .75rem;
+  line-height: 1.5;
+  white-space: nowrap;
+  box-sizing: border-box;
+  transition: color .15s ease-in-out,
+    background-color .15s ease-in-out,
+    border-color .15s ease-in-out,
+    box-shadow .15s ease-in-out;
+}
+
+.btn:focus,
+.btn:hover {
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}

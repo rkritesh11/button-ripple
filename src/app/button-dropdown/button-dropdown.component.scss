@@ -1,0 +1,26 @@
+.dropdown {
+  position: relative;
+  display: inline-block
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: #fff;
+  box-sizing: border-box;
+  text-align: left;
+  padding: 0.5rem 0;
+  margin: .125rem 0 0;
+  font-size: 1rem;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, .15);
+  border-radius: .25rem;
+  display: none;
+}
+
+.dropdown-menu.show {
+  display: block
+}

@@ -1,0 +1,7 @@
+<div class="dropdown">
+  <app-backdrop [show]="show"></app-backdrop>
+  <ng-content select="[dropdown-toggler]"></ng-content>
+  <div class="dropdown-menu" [ngClass]="{show: show}">
+    <ng-content></ng-content>
+  </div>
+</div>
